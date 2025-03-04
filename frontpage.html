@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front Page</title>
+</head>
+<body>
+    <style>
+       *{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0%;
+       }
+    .bgImage img{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+
+    }
+
+       
+        .navBar{
+            display: flex;
+            align-items: anchor-center;
+            justify-content: space-between;
+            padding: 1vh;
+            .navLogo{
+                h2{
+                    color: rgb(255, 255, 255);
+                    font-size: 4vh;
+                    padding-left: 2vh;
+                    text-shadow: 0px 0px 12px rgb(0, 0, 0) ;
+                }
+            }
+            
+
+       
+         ul{
+             display: flex;
+             list-style-type: none;
+             padding: 10px;
+             li a {
+                  margin: 5px;
+                 text-decoration: none;
+                 color: rgb(255, 255, 255);
+                 text-shadow: 0px 0px 12px rgb(0, 0, 0) ;
+               }
+            }
+        }
+
+        .headLine{
+            margin-top:200px ;
+           h3 {
+            font-size:4vw ;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            text-shadow: 0px 0px 12px rgb(0, 0, 0) ;
+
+           }
+        }
+        .transparentbox{
+            width:70%;
+            background-color: rgba(21, 20, 20, 0.484);
+            height: 40%;
+            margin: auto;
+            padding: 3vh;
+            border-radius: 2vh;
+
+        }
+        .menuContainer{
+            display: flex;
+            margin: auto;
+            width: 97%;
+            background-color: rgb(255, 255, 255);
+            border-radius: 2vh;
+            padding: 2vh;
+           
+            button{
+                background-color: rgb(255, 32, 32);
+                border-radius: 2vh;
+                color: rgb(255, 255, 255);
+                padding-left: 1vh;
+                padding-right: 1vh;
+            }
+        }
+        .menuBox{
+           margin: auto;
+            display: grid;
+            
+            .menuBox1{
+               width: .9vh;;
+            }
+        }
+        
+       
+    </style>
+   
+    <form>
+        <div class="bgImage">
+            <img src="Gallery/full-shot-women-with-floaters.jpg" alt="">
+        </div>
+<!-- this is nav bar -->
+        <header>
+          <div class="navBar">
+            <div class="navLogo">
+                <h2>TourTravel</h2>
+            </div>
+            <div class="navLinks">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">AboutUs</a></li>
+                    <li><a href="#">Packages</a></li>
+                    <li><a href="#">Trending</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+          </div>
+        </header>
+        
+
+<!-- this is hero section -->
+         <div class="headLine">
+            <h3>Exploring World with Us !</h3>
+        </div>
+
+
+<!-- this is menu bar -->
+        <div class="transparentbox">
+
+         
+          <div class="menuContainer">
+            <div class="menuBox">
+                <label for="menuBox1">Where You Want To Go ?</label>
+            <input type="text" id="menuBox1" value="Zip Code / Country">
+            </div>
+            <div class="menuBox">
+                <label for="menuBox">Check In</label>
+            <input type="text" id="menuBox2" value="Check In">
+            </div>
+            <div class="menuBox">
+                <label for="menuBox3">Check Out</label>
+            <input type="text" id="menuBox3" value="Check Out">
+            </div>
+            <div class="menuBox">
+                <label for="menuBox4">How Many Are You ?</label>
+            <input type="text" id="menuBox4" value="Mention Guests">
+            </div>
+            <button>
+                <P>Check Availability</P>
+            </button>
+          </div>
+        </div>
+          
+
+
+
+
+
+    </form>
+</body>
+</html>

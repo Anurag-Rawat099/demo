@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    a{
+        text-decoration: none;
+    } 
+}
+
+.navigation{
+display: flex;
+background-color:rgb(254, 253, 225);
+align-items: anchor-center;
+justify-content: space-between;
+padding: 1vh;
+border: 1px solid;
+
+
+.navLogo {
+    padding: 2vh;
+    border-radius: 7vh;
+    
+    a{
+        color: black;
+    }
+  
+}
+
+.navLinks {
+    background-color: rgb(255, 255, 243);
+    text-align: center;
+    border-radius: 7vh;
+    padding:2vh;
+    border: 2px solid;
+}
+.navLinks li{
+    display: inline;
+   padding: 3vh; 
+   a{
+    color:  black;
+   } 
+}
+}
+
+.heroSection {
+    background-color: rgb(255, 255, 243);
+    padding: 7%;
+    height: 70vh;
+    text-align: center;
+    
+    
+    h2 {
+        font-size: 3vh;
+        text-align: justify;
+        padding: 2vh;
+    }
+
+    h3 {
+        
+        font-size: 5vh;
+        color: rgb(1, 80, 133);
+        text-align: justify;
+        padding: 2vh;
+       
+    }
+    p{
+     font-size: 2.5vh;
+     text-align: justify;
+     padding: 2vh;
+
+    }
+}
+
+.aboutUs{
+    background-color: rgb(255, 255, 243);
+    padding: 2vh;
+    h2{
+        text-align: center;
+        background-color:rgb(254, 253, 225);
+        padding: 2vh;
+        border-radius: 7vh;
+        width: 70%;
+        margin: auto;
+        border: 1px solid;
+        
+        a{
+            color: black;
+        }
+    }
+
+
+ .aboutDetails{
+     display: flex;
+     align-items:center;
+    
+    .aboutImg img{
+        width: 30;
+        margin: 3vh;
+        border-radius: 3vh;
+        height: 270px;
+        border: 1px solid;
+    }
+    .aboutInfo{
+        text-align: center;
+        background-color:rgb(254, 253, 225);
+        margin: 3vh;
+        border-radius: 3vh;
+        width: 78%;
+        height:260px ;
+        border: 1px solid;
+        padding: 5px;
+        
+        .aboutHeading{
+            font-size: 4vh;
+            color: rgb(71, 71, 135);
+            padding: 7px;
+        }
+        .aboutContent{
+            P{
+                font-size: 3vh;
+
+            }
+            ul{
+                list-style-type: none;
+            }
+        }
+    }
+ }
+}
+.projectsInfo{
+    background-color: rgb(255, 255, 243);
+    padding: 2vh;
+    h1{
+        text-align:center;
+        background-color:rgb(254, 253, 225);
+        padding: 2vh;
+        border-radius: 7vh;
+        width: 70%;
+        margin: auto;
+        border: 1px solid;
+        a{
+         color: black;
+        }
+    }   
+}
+.projectContatiner{
+    display: flex;
+    align-items: center;
+    margin:10px;
+    .projectCards{
+        width:25%;
+        background-color:rgb(254, 253, 225);
+        margin: auto;
+        margin-top: 5vh;
+        border: 1px solid;
+        border-radius: 3vh;
+        padding: 5vh;
+    }
+}

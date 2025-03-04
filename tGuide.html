@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Guide</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+</head>
+
+<style>
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .nav{
+        padding-left: 3vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 3vw;
+        
+        h2{
+            font-size: 3vw;
+        }
+        .arrows{
+            display: flex;
+            span{
+                font-size: 3vw;
+               
+
+            }
+        }
+        
+    }
+    .cardsContainer{
+        display: flex;
+        align-items: center;
+      
+        margin: auto;
+        gap: 2vw;
+        padding: 2vw;
+    }
+    .cards{
+        background-color: rgb(255, 255, 255);
+        height: fit-content;
+        width: 30%;
+        margin: auto;
+        border-radius: 1vh;
+       box-shadow:0px 0px 10px rgb(0, 0, 0) ;
+        overflow: hidden;
+        .cardImage{
+            background-color: rgb(0, 0, 0);
+            height: 18vw ;
+            overflow: hidden;
+            img{
+                width:100%;
+                height: 100%;
+            }
+            
+        }
+        .cardName{
+           padding: .5vw;
+            .Top{
+                display: flex;
+                justify-content: space-between;
+                align-items:baseline;
+               
+                
+               
+                h4{
+                font-size: 2vw;
+                margin-block-start: 0;
+                margin-block-end: 0;
+            }
+            p{
+                color: rgb(255, 0, 76);
+                margin-block-start: 0;
+                margin-block-end: 0;
+                font-weight: bold;
+            }
+
+            }
+           
+            p{
+                font-size: 1.2vw;
+                margin-inline-start:.5vw;
+                margin-inline-end: .5vw;
+                color: rgba(0, 0, 0, 0.674);
+               
+
+            }
+        }
+       
+    }
+</style>
+<body>
+    <header>
+        <div class="nav">
+           <div class="heading">
+              <h2>Trending</h2>
+           </div>
+          <div class="arrows">
+            
+                <span><i class="ri-arrow-left-circle-line"></i></span>
+           
+                <span><i class="ri-arrow-right-circle-line"></i></span>
+
+          </div>
+        </div>
+    </header>
+    <div class="cardsContainer">
+        <div class="cards">
+            <div class="cardImage">
+                <img src="Gallery/stylish-handsome-indian-man-tshirt-pastel-wall.jpg" alt="">
+            </div>
+            <div class="cardName">
+                <div class="cardName Top">
+                    <h4>Ellas Hassain</h4>
+                    <p>Forest Guide</p>
+                </div>
+                
+                <p>With a deep passion of forests, our experts are committed to craft immersive experiences to connect with the wilderness.</p>
+            </div>
+          
+        </div>
+   
+
+    
+        <div class="cards">
+            <div class="cardImage">
+                <img src="Gallery\portrait-attractive-young-man-straightening-his-jacket.jpg" alt="">
+            </div>
+            <div class="cardName">
+                <div class="cardName Top">
+                    <h4>Ahmed Hamdy</h4>
+                    <p>Ocean Guide</p>
+                </div>
+                
+                <p>Join us as we embark on a journey of inspiring encounters in the ocean's surface where secrets become your unforgettable memories.</p>
+            </div>
+          
+        </div>
+    
+
+        <div class="cards">
+            <div class="cardImage">
+                <img src="Gallery/good-looking-bearded-man-by-river-park.jpg" alt="">
+            </div>
+            <div class="cardName">
+                <div class="cardName Top">
+                    <h4>Esiam Samir</h4>
+                    <p>City Guide</p>
+                </div>
+                
+                <p>With a passion for travel and a commitment to excillence, wee curate memorable experiences that go beyond ordinary.</p>
+            </div>
+          
+        </div>
+    </div>
+</html>

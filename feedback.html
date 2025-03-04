@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"rel="stylesheet"/>
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    margin: 5vw 7vw;
+}
+.logo button{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border-radius: 50%;
+}
+.cardsContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top:5vw;
+    gap: 5vw;
+}
+.cards{
+    width: 25vw;
+    height: 50vh;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+.rating{
+    display: flex;
+    justify-content: space-between;
+}
+.mark{
+    color: red;
+    font-size: 2vw;
+}
+.star{
+    color: gold;
+    margin-right: 5px;
+    font-size: 1vw;
+}
+.review p{
+    height: 14vw;
+    font-size: 1rem;
+    margin-top: 10px;
+    color: rgb(55, 55, 55);
+    text-align: left;
+    line-height: 20px;
+}
+.cards img{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;            
+    object-fit: cover;
+}
+.cardsContent{
+    margin: 10px;
+    padding: 20px;
+}
+.cardsContent .profile{
+    display: flex;
+}
+.profileInfo{
+    margin-top: 5px;
+    margin-left: 10px;
+    align-items: center;
+}
+.profileInfo h1{
+    font-size: 17px;
+    color: black;
+}
+.profileInfo h2{
+    font-size: 10px;
+    margin-right: 10px;
+    color: rgb(36, 36, 36);
+}
+</style>
+<body>
+    <div class="logo">
+        <h1>Client Feedback</h1>
+        <span>
+            <button><</button>
+            <button>></button>
+        </span>                                         
+    </div>
+    <div class="cardsContainer">
+        <div class="cards">
+            <div class="cardsContent">
+                <div class="rating">
+                    <span class="mark"><i class="ri-double-quotes-r"></i></span>
+                    <span class="star">
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-half-s-fill"></i>
+                        <i class="ri-star-s-line"></i>
+                    </span>
+                </div>
+                <div class="review">
+                    <p>I had the most incredible experience using this tour and travel website.From booking my flight and accommodations to discovering unique local activities, everything was seamless and well-organized.It made my trip stress-free and unforgettable.I can't wait to plan my next advanture with them!</p>
+                </div>
+                <div class="profile">
+                    <img src="Gallery/good-looking-bearded-man-by-river-park.jpg" alt="">
+                    <div class="profileInfo">
+                        <h1>Mike henderson</h1>
+                        <h2>Bussiness Manager & CEO</h2>
+                    </div>
+                </div>
+            </div>    
+        </div>
+        <div class="cards">
+            <div class="cardsContent">
+                <div class="rating">
+                    <span class="mark"><i class="ri-double-quotes-r"></i></span>
+                    <span class="star">
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                    </span>
+                </div>
+                <div class="review">
+                    <p>I'm not and experienced traveler, but this website made me feel like a pro. The customer support team was incredibly helpful in guiding me though the planning process, and their city guides provides valuable insights. Thanks to them, I had a fanstastic time exploring a new city with confidence.I can't thank them enough!</p>
+                </div>
+                <div class="profile">
+                    <img src="Gallery/portrait-attractive-young-man-straightening-his-jacket.jpg" alt="">
+                    <div class="profileInfo">
+                        <h1>John Williams</h1>
+                        <h2>Content Writer</h2>
+                    </div>
+                </div>
+            </div>    
+        </div>
+        <div class="cards">
+            <div class="cardsContent">
+                <div class="rating">
+                    <span class="mark"><i class="ri-double-quotes-r"></i></span>
+                    <span class="star">
+                        <i class="ri-star-s-fill"></i>    
+                        <i class="ri-star-s-fill"></i>    
+                        <i class="ri-star-s-fill"></i>    
+                        <i class="ri-star-s-fill"></i>  
+                        <i class="ri-star-s-line"></i>  
+                    </span>
+                </div>
+                <div class="review">
+                    <p>As a frequent traveler,I've used various tour and traveler website,but this one stands out for its attention to detail and personalized recommendations.The itineraries they offer are thoughtfully curated, and the insider tips on their blog were a game-changer for my recent trip. highly recommendation! Thanks to them.</p>
+                </div>
+                <div class="profile">
+                    <img src="Gallery/stylish-handsome-indian-man-tshirt-pastel-wall.jpg" alt="">
+                    <div class="profileInfo">
+                        <h1>Paul Harrison</h1>
+                        <h2>Director</h2>
+                    </div>
+                </div>
+            </div>    
+        </div>  
+    </div>
+</body>
+</html>
